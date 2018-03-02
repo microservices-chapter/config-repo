@@ -20,3 +20,6 @@ zuul:
     order-service:
       path: /order/**
       url: http://order-service:8085
+    shopping-cart:
+      path: /shopping-cart/**
+      url: http://shopping-cart:8084
