@@ -14,6 +14,9 @@ zuul:
     inventory-service:
       path: /inventory/**
       url: http://inventory-service:8081
+    review-service:
+        path: /reviews/**
+        url: http://reviews:8082
     order-service:
       path: /order/**
       url: http://order-service:8085
