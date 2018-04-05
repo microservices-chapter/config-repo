@@ -3,4 +3,4 @@ spring:
     name: shopping-cart
 
 server:
-  port: 8084
+  port: 8089
