@@ -22,4 +22,7 @@ zuul:
       url: http://order-service:8099
     shopping-cart:
       path: /shopping-cart/**
-      url: http://shopping-cart:8084
+      url: http://shopping-cart:8089
+    recommendation-service:
+      path: /recommendation/**
+      url: http://recommendation-service:8077
