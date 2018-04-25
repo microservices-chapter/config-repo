@@ -1,6 +1,9 @@
 spring:
   application:
     name: review-service
+  data:
+    mongodb:
+      uri: mongodb://inventory-mongodb:27017/review
 
 server:
   port: 8082
