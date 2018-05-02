@@ -26,3 +26,6 @@ zuul:
     recommendation-service:
       path: /recommendation/**
       url: http://recommendation-service:8077
+    catalog-service:
+      path: /catalog/**
+      url: http://catalog-service:8091
