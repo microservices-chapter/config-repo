@@ -5,5 +5,9 @@ spring:
     mongodb:
       uri: mongodb://inventory-mongodb:27017/inventory
 
+management:
+  security:
+    enabled: false
+
 server:
   port: 8081
